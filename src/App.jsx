@@ -21,13 +21,44 @@ function App() {
   }, []); // The empty array ensures this effect runs only once after the initial render
 
   return (
-    <>
+    <Router>
       <Head />
-      <h1 className="text-3xl text-blue-800 text-center ">
-        Welcome to Icook Interactive Cooking website!
-      </h1>
-      <RecipesList heading="Select a recipe to cook:" items={titles} />
-    </>
+      <Switch>
+        <Route exact path="/">
+          <h1 className="text-3xl text-blue-800 text-center ">
+            Welcome to Icook Interactive Cooking website!
+          </h1>
+          <RecipesList heading="Select a recipe to cook:" items={titles} />
+        </Route>
+        <Route path="/recipe/:id">
+          {({ match }) => {
+            // Convert the id param to an integer and ensure it's a valid index
+            const recipeId = match.params.id;
+            // Pass the selected recipe data and id to the Recipe component
+            const selectedRecipe = recipes[recipeId];
+            return selectedRecipe ? (
+              <Recipe data={selectedRecipe} recipeId={recipeId} />
+            ) : (
+              <div>Recipe not found</div>
+            );
+          }}
+        </Route>
+        <Route path="/CookWithMe/:id">
+          {({ match }) => {
+            // Convert the id param to an integer and ensure it's a valid index
+            const recipeId = match.params.id;
+            // Pass the selected recipe data and id to the Recipe component
+            const selectedRecipe = recipes[recipeId];
+            return selectedRecipe ? (
+              <CookWithMe data={selectedRecipe} id={recipeId} />
+            ) : (
+              <div>Recipe not found</div>
+            );
+          }}
+        </Route>
+      </Switch>
+      <Tail />
+    </Router>
   );
 }
 
