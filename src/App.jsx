@@ -24,13 +24,13 @@ function App() {
     <Router>
       <Head />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Icook/">
           <h1 className="text-3xl text-blue-800 text-center ">
             Welcome to Icook Interactive Cooking website!
           </h1>
           <RecipesList heading="Select a recipe to cook:" items={titles} />
         </Route>
-        <Route path="/recipe/:id">
+        <Route path="/Icook/recipe/:id">
           {({ match }) => {
             // Convert the id param to an integer and ensure it's a valid index
             const recipeId = match.params.id;

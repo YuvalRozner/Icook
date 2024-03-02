@@ -4,7 +4,7 @@ function RecipesList({ items, heading }) {
   const handleClick = (item, recipeId) => {
     console.log(item + " was clicked");
     // Set the link to "/recipe"
-    window.location.href = "/recipe/" + recipeId;
+    window.location.href = "/Icook/recipe/" + recipeId;
   };
 
   let recipeId = -1; // The recipe id is the index of the recipe in the array. default is -1 (Not found)

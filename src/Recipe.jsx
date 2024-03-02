@@ -6,7 +6,7 @@ function Recipe({ data, recipeId }) {
     data;
 
   const handleClick = (recipeId) => {
-    window.location.href = "/CookWithMe/" + recipeId;
+    window.location.href = "/Icook/CookWithMe/" + recipeId;
   };
 
   return (
@@ -26,7 +26,7 @@ function Recipe({ data, recipeId }) {
             onClick={() => handleClick(recipeId)}
           >
             <img
-              src="/public/cook_with_me.jpg"
+              src="public/cook_with_me.jpg"
               alt="cook with me image"
               className="rounded-3xl min-w-20 max-w-64 max-h-80 h-72 w-auto overflow-hidden relative "
             />
