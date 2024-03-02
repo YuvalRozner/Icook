@@ -1,12 +1,26 @@
+import React, { useState } from "react";
 import NavigationBar from "./NavigationBar";
-import React from "react";
 
 function Recipe({ data, recipeId }) {
-  const { title, image, allergies, difficulty, ingredients, instructions } =
-    data;
+  const {
+    title,
+    image,
+    allergies,
+    difficulty,
+    ingredients,
+    amounts,
+    instructions,
+  } = data;
+
+  const [dishes, setDishes] = useState(1); // State to hold the selected number of dishes
 
   const handleClick = (recipeId) => {
     window.location.href = "/Icook/CookWithMe/" + recipeId;
+  };
+
+  // Function to handle change in the number of dishes
+  const handleDishChange = (e) => {
+    setDishes(Number(e.target.value));
   };
 
   return (
@@ -38,6 +52,27 @@ function Recipe({ data, recipeId }) {
           </button>
         </div>
         <div className="details max-w-5xl mx-auto">
+          {/* ComboBox for selecting the number of dishes */}
+          <div className="my-4 flex justify-center">
+            <label
+              htmlFor="dishCount"
+              className="text-3xl font-medium text-gray-900"
+            >
+              Number of Dishes:
+            </label>
+            <select
+              id="dishCount"
+              className="bg-gray-100 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-auto p-2 mx-12"
+              onChange={handleDishChange}
+              value={dishes}
+            >
+              {[...Array(10).keys()].map((number) => (
+                <option key={number + 1} value={number + 1}>
+                  {number + 1}
+                </option>
+              ))}
+            </select>
+          </div>
           <div className="mt-5 mb-3">
             <strong className="mr-16">Allergies: </strong> {allergies}
           </div>
@@ -46,11 +81,13 @@ function Recipe({ data, recipeId }) {
           </div>
           <div className="flex">
             <strong className="mr-10">Ingredients:</strong>
-            <div>
+            <ul>
               {ingredients.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
+                <li key={index}>
+                  {`${amounts[index] * dishes} ${ingredient}`}
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
           <div className="my-3 flex">
             <strong>Instructions:</strong>

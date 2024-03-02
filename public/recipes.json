@@ -6,13 +6,13 @@
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
-                "8 oz spaghetti",
-                "2 large eggs",
-                "1 cup grated Parmesan cheese",
-                "4 slices of pancetta",
-                "2 cloves of garlic",
-                "Salt and black pepper to taste"
+                "oz spaghetti",
+                "large eggs",
+                "cup grated Parmesan cheese",
+                "slices of pancetta",
+                "cloves of garlic"
             ],
+            "amounts": [8, 2, 1, 4, 2],
             "instructions": [
                 " Cook spaghetti in a large pot of salted boiling water until al dente. Drain and set aside.",
                 " Fry meat until browned and add spices.",
@@ -22,8 +22,7 @@
                 " Remove from heat and quickly stir in the egg and cheese mixture. Toss until creamy and well combined.",
                 " Crumble crispy pancetta over the top and serve hot."
             ],
-            "duration": [30, 10, 10, 5, 5, 5, 5],
-
+            "duration": [10, 10, 5, 5, 5, 5, 5],
             "pics": [
                 "/public/spaghetti/instruction1.jpg",
                 "/public/spaghetti/instruction2.jpg",
@@ -33,7 +32,6 @@
                 "/public/spaghetti/instruction6.jpg",
                 "/public/spaghetti/instruction7.jpg"
             ]
-
         },
         "2": {
             "title": "Chicken",
@@ -41,14 +39,14 @@
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
-                "12 oz fettuccine pasta",
-                "2 boneless, skinless chicken breasts",
-                "2 cups heavy cream",
-                "1 cup grated Parmesan cheese",
-                "2 cloves of garlic",
-                "2 tablespoons butter",
-                "Salt and black pepper to taste"
+                "oz fettuccine pasta",
+                "boneless, skinless chicken breasts",
+                "cups heavy cream",
+                "cup grated Parmesan cheese",
+                "cloves of garlic",
+                "tablespoons butter"
             ],
+            "amounts": [12, 2, 2, 1, 2, 2],
             "instructions": [
                 " Season chicken breasts with salt and black pepper.",
                 " In a skillet, melt butter and sauté minced garlic until fragrant.",
@@ -56,8 +54,7 @@
                 " In the same skillet, add heavy cream and grated Parmesan cheese. Cook until sauce thickens.",
                 " Slice cooked chicken into strips and add it back to the skillet."
             ],
-            "duration": [30, 5, 10, 10, 5],
-
+            "duration": [10, 5, 10, 10, 5],
             "pics": [
                 "/public/chicken/instruction1.jpg",
                 "/public/chicken/instruction2.jpg",
@@ -65,7 +62,6 @@
                 "/public/chicken/instruction4.jpg",
                 "/public/chicken/instruction5.jpg",
                 "/public/chicken/chicken.jpg"
-
             ]
         },
         "3": {
@@ -74,16 +70,17 @@
             "allergies": "None",
             "difficulty": "Easy",
             "ingredients": [
-                "2 cups broccoli florets",
-                "1 bell pepper, sliced",
-                "1 carrot, sliced",
-                "1 cup snap peas",
-                "2 cloves of garlic, minced",
-                "1/4 cup soy sauce",
-                "2 tablespoons sesame oil",
-                "1 tablespoon honey",
-                "1 tablespoon cornstarch"
+                "cups broccoli florets",
+                "bell pepper, sliced",
+                "carrot, sliced",
+                "cup snap peas",
+                "cloves of garlic, minced",
+                "cup soy sauce",
+                "tablespoons sesame oil",
+                "tablespoon honey",
+                "tablespoon cornstarch"
             ],
+            "amounts": [2,1,1,1,2,0.25,2,1,1],
             "instructions": [
                 " In a bowl, mix soy sauce, sesame oil, honey, and cornstarch to make the sauce.",
                 " Heat a large skillet or wok over high heat. Add a bit of oil.",
@@ -92,7 +89,7 @@
                 " Pour the sauce over the vegetables and toss to coat. Cook until the sauce thickens.",
                 " Serve hot over cooked rice."
             ],
-            "duration": [10, 5, 5, 10, 5, 5],
+            "duration": [5, 5, 5, 5, 5, 5],
             "pics": [
                 "/public/vegetable stir fry/instruction1.jpg",
                 "/public/vegetable stir fry/instruction2.jpg",
@@ -108,14 +105,15 @@
             "allergies": "Dairy, Gluten",
             "difficulty": "Easy",
             "ingredients": [
-                "1 1/2 cups all-purpose flour",
-                "3 1/2 teaspoons baking powder",
-                "1 teaspoon salt",
-                "1 tablespoon white sugar",
-                "1 1/4 cups milk",
-                "1 egg",
-                "3 tablespoons butter, melted"
+                "cups all-purpose flour",
+                "teaspoons baking powder",
+                "teaspoon salt",
+                "tablespoon white sugar",
+                "cups milk",
+                "egg",
+                "tablespoons butter, melted"
             ],
+            "amounts": [1.5, 3.5, 1, 1.25, 1, 1, 3],
             "instructions": [
                 " In a large bowl, sift together the flour, baking powder, salt, and sugar.",
                 " Make a well in the center and pour in the milk, egg, and melted butter.",
@@ -140,13 +138,14 @@
             "allergies": "None",
             "difficulty": "Easy",
             "ingredients": [
-                "4 cups mixed greens",
-                "1 cup cherry tomatoes, halved",
-                "1/2 cup cucumber, sliced",
-                "1/4 cup red onion, sliced",
-                "1/4 cup feta cheese",
-                "1/4 cup balsamic vinaigrette"
+                "cups mixed greens",
+                "cup cherry tomatoes, halved",
+                "cup cucumber, sliced",
+                "cup red onion, sliced",
+                "cup feta cheese",
+                "cup balsamic vinaigrette"
             ],
+            "amounts": [4, 1, 0.5, 0.25, 0.25, 0.25],
             "instructions": [
                 " In a large bowl, toss mixed greens, cherry tomatoes, cucumber, and red onion together.",
                 " Drizzle with balsamic vinaigrette and toss to coat.",
@@ -165,17 +164,16 @@
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
-            "1 lb kosher ground beef",
-            "4 kosher hamburger buns",
-            "4 slices of kosher cheese (optional, ensure dairy-free if serving with meat)",
-            "1/4 cup lettuce, shredded",
-            "1/4 cup tomato, sliced",
-            "1/4 cup onion, sliced",
-            "1/4 cup pickles, sliced",
-            "2 tablespoons olive oil (for grilling)",
-            "Kosher salt and black pepper to taste",
-            "Mustard and ketchup (check for kosher certification)"
+            "lb kosher ground beef",
+            "kosher hamburger buns",
+            "slices of kosher cheese (optional, ensure dairy-free if serving with meat)",
+            "cup lettuce, shredded",
+            "cup tomato, sliced",
+            "cup onion, sliced",
+            "cup pickles, sliced",
+            "tablespoons olive oil (for grilling)"
             ],
+            "amounts": [1, 4, 4, 0.25, 0.25, 0.25, 0.25, 2],
             "instructions": [
             " Divide kosher ground beef into 4 equal portions and shape into patties.",
             " Season patties with kosher salt and black pepper.",
@@ -185,7 +183,7 @@
             " Layer each bun with lettuce, tomato, onion, pickles, and a grilled patty.",
             " If using cheese and keeping kosher, ensure it's a non-dairy cheese alternative. Place it on the patty right before it finishes cooking to melt slightly."
             ],
-            "duration": [10, 5, 10, 5, 5, 5, 5, 5],
+            "duration": [5, 5, 10, 5, 5, 5, 5],
             "pics": [
             "/public/kosher beef burger/instruction1.jpg",
             "/public/kosher beef burger/instruction2.jpg",
@@ -202,16 +200,17 @@
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
-                "1 lb ground beef",
-                "8 taco shells",
-                "1 cup shredded lettuce",
-                "1/2 cup diced tomato",
-                "1/4 cup diced onion",
-                "1/4 cup sour cream",
-                "1/4 cup salsa",
-                "1/4 cup guacamole",
-                "1/4 cup cilantro, chopped"
+                "lb ground beef",
+                "taco shells",
+                "cup shredded lettuce",
+                "cup diced tomato",
+                "cup diced onion",
+                "cup sour cream",
+                "cup salsa",
+                "cup guacamole",
+                "cup cilantro, chopped"
             ],
+            "amounts": [1, 8, 1, 0.5, 0.25, 0.25, 0.25, 0.25, 0.25],
             "instructions": [
                 " In a skillet, cook ground beef until browned. Season with taco seasoning.",
                 " Heat taco shells according to package instructions.",
@@ -232,14 +231,14 @@
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
-                "4 salmon fillets",
-                "1/4 cup honey",
-                "2 tablespoons soy sauce",
-                "1 tablespoon olive oil",
-                "2 cloves garlic, minced",
-                "1 tablespoon lemon juice",
-                "Salt and black pepper to taste"
+                "salmon fillets",
+                "cup honey",
+                "tablespoons soy sauce",
+                "tablespoon olive oil",
+                "cloves garlic, minced",
+                "tablespoon lemon juice"
             ],
+            "amounts": [4, 0.25, 2, 1, 2, 1],
             "instructions": [
                 " In a bowl, mix honey, soy sauce, olive oil, minced garlic, lemon juice, salt, and black pepper.",
                 " Marinate salmon fillets in the mixture for 30 minutes.",
@@ -262,19 +261,20 @@
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
-                "1 3/4 cups all-purpose flour",
-                "1 1/2 cups granulated sugar",
-                "3/4 cup unsweetened cocoa powder",
-                "1 1/2 teaspoons baking powder",
-                "1 1/2 teaspoons baking soda",
-                "1 teaspoon salt",
-                "2 eggs",
-                "1 cup milk",
-                "1/2 cup vegetable oil",
-                "2 teaspoons vanilla extract",
-                "1 cup boiling water",
-                "1 cup chocolate frosting"
+                "cups all-purpose flour",
+                "cups granulated sugar",
+                "cup unsweetened cocoa powder",
+                "teaspoons baking powder",
+                "teaspoons baking soda",
+                "teaspoon salt",
+                "eggs",
+                "cup milk",
+                "cup vegetable oil",
+                "teaspoons vanilla extract",
+                "cup boiling water",
+                "cup chocolate frosting"
             ],
+            "amounts": [1.75, 1.5, 0.75, 1.5, 1.5, 1, 2, 1, 0.5, 2, 1, 1],
             "instructions": [
                 " Preheat the oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.",
                 " In a large bowl, sift together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
