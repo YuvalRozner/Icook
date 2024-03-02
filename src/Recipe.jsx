@@ -13,7 +13,7 @@ function Recipe({ data, recipeId }) {
     <>
       <NavigationBar title={title} />
       <div className="recipe pl-6 mx-6 mb-5 text-2xl">
-        <div className="grid grid-cols-2 grid-rows-1">
+        <div className="grid grid-cols-2 grid-rows-1 max-w-5xl mx-auto">
           <div className="flex justify-center">
             <img
               src={"/Icook/" + image}
@@ -37,27 +37,32 @@ function Recipe({ data, recipeId }) {
             </div>
           </button>
         </div>
-        <div className="mt-5 mb-3">
-          <strong className="mr-16">Allergies: </strong> {allergies}
-        </div>
-        <div className="mb-3">
-          <strong className="mr-14">Difficulty:</strong> {difficulty}
-        </div>
-        <div className="flex">
-          <strong className="mr-10">Ingredients:</strong>
-          <div>
-            {ingredients.map((ingredient, index) => (
-              <li key={index}>{ingredient}</li>
-            ))}
+        <div className="details max-w-5xl mx-auto">
+          <div className="mt-5 mb-3">
+            <strong className="mr-16">Allergies: </strong> {allergies}
           </div>
-        </div>
-        <div className="my-3 flex">
-          <strong>Instructions:</strong>
-          <ol className="ml-9">
-            {instructions.map((instruction, index) => (
-              <li key={index}>{instruction}</li>
-            ))}
-          </ol>
+          <div className="mb-3">
+            <strong className="mr-14">Difficulty:</strong> {difficulty}
+          </div>
+          <div className="flex">
+            <strong className="mr-10">Ingredients:</strong>
+            <div>
+              {ingredients.map((ingredient, index) => (
+                <li key={index}>{ingredient}</li>
+              ))}
+            </div>
+          </div>
+          <div className="my-3 flex">
+            <strong>Instructions:</strong>
+            <ol className="ml-9">
+              {instructions.map((instruction, index) => (
+                <li key={index} className="flex">
+                  <strong className="min-w-[2rem]">{index + 1}.</strong>
+                  <span className="flex-1">{instruction}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
         </div>
       </div>
     </>
