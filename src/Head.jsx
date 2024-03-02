@@ -1,10 +1,12 @@
 const Head = () => {
   return (
-    <img
-      src="/Icook/public/logo.webp"
-      alt="Website Logo"
-      className="w-72 max-w-full max-h-full mx-auto my-4 bg-white shadow-2xl relative rounded-3xl object-cover h-40 w-50 "
-    ></img>
+    <div className="flex justify-center items-center mx-auto my-4 max-w-full">
+      <img
+        src="/Icook/public/logo1.jpg"
+        alt="Website Logo"
+        className="w-auto max-w-full h-auto max-h-48 bg-white relative object-cover"
+      />
+    </div>
   );
 };
 
