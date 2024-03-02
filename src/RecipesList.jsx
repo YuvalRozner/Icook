@@ -7,27 +7,25 @@ function RecipesList({ items, heading }) {
     window.location.href = "/Icook/recipe/" + recipeId;
   };
 
-  let recipeId = -1; // The recipe id is the index of the recipe in the array. default is -1 (Not found)
-
   return (
     <>
       {items.length === 0 && <p>No Recipes found</p>}
-      <div className="grid grid-flow-row-dense mx-24 my-8 grid-cols-3 gap-4 relative ">
-        <h1> </h1>
-        <h1 className="text-2xl font-bold text-center relative">{heading}</h1>
-        <h1> </h1>
-        {items.map((item, recipeId) => (
+      <div className="mx-4 md:mx-24 my-8 grid grid-flow-row-dense grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 relative">
+        <h1 className="col-span-full text-2xl font-bold text-center relative">
+          {heading}
+        </h1>
+        {items.map((item, index) => (
           <button
-            key={item}
-            onClick={() => handleClick(item, items.indexOf(item) + 1)}
+            key={index}
+            onClick={() => handleClick(item, index + 1)}
             className="w-auto h-auto bg-white shadow-2xl rounded-2xl overflow-hidden relative duration-300 hover:scale-105"
           >
             <img
-              className="w-full h-64 object-cover object-center "
+              className="w-full h-64 object-cover object-center"
               src={`public/${item}/${item}.jpg`}
-              alt={item + " recipe image"}
+              alt={`${item} recipe image`}
             />
-            <div className="absolute inset-x-0 bottom-0 bg-gray-800 hover:bg-gray-900 hover:bg-opacity-70 bg-opacity-50 text-4xl text-white text-center py-3 font-bold">
+            <div className="absolute inset-x-0 bottom-0 bg-gray-800 hover:bg-gray-900 hover:bg-opacity-70 bg-opacity-50 text-xl md:text-2xl text-white text-center py-3 font-bold">
               {item}
             </div>
           </button>
