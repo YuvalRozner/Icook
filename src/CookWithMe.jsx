@@ -47,7 +47,7 @@ function CookWithMe({ data }) {
         </p>
         {pics[currentStep] && (
           <img
-            src={pics[currentStep]}
+            src={"/Icook/" + pics[currentStep]}
             alt={`Step ${currentStep + 1}`}
             className="max-w-xl h-auto rounded-md shadow-lg mb-4"
           />

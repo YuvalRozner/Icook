@@ -43,7 +43,7 @@ function App() {
             );
           }}
         </Route>
-        <Route path="/CookWithMe/:id">
+        <Route path="/Icook/CookWithMe/:id">
           {({ match }) => {
             // Convert the id param to an integer and ensure it's a valid index
             const recipeId = match.params.id;
