@@ -9,14 +9,14 @@ const NavigationBar = ({ title }) => {
       </h2>
       <div className="flex flex-1 justify-end">
         <Link
-          to="/"
+          to="/Icook/"
           className="bg-blue-400 hover:bg-blue-600 text-white font-bold text-2xl py-2 px-4 rounded mx-2 my-3"
         >
           Back
         </Link>
 
         <Link
-          to="/"
+          to="/Icook/"
           className="bg-blue-400 hover:bg-blue-600 text-white font-bold text-2xl py-2 px-4 rounded mx-2 my-3"
         >
           Home
