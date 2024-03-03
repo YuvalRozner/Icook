@@ -2,7 +2,7 @@
     "recipes" : {
         "1": {
             "title": "Spaghetti",
-            "image": "/public/spaghetti/Spaghetti.jpg",
+            "image": "public/spaghetti/Spaghetti.jpg",
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -22,7 +22,7 @@
                 " Remove from heat and quickly stir in the egg and cheese mixture. Toss until creamy and well combined.",
                 " Crumble crispy pancetta over the top and serve hot."
             ],
-            "duration": [10, 10, 5, 5, 5, 5, 5],
+            "duration": [10, 100, 5, 5, 5, 5, 5],
             "pics": [
                 "/public/spaghetti/instruction1.jpg",
                 "/public/spaghetti/instruction2.jpg",
@@ -35,7 +35,7 @@
         },
         "2": {
             "title": "Chicken",
-            "image": "/public/chicken/Chicken.jpg",
+            "image": "public/chicken/Chicken.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -66,7 +66,7 @@
         },
         "3": {
             "title": "Vegetable Stir Fry",
-            "image": "/public/vegetable stir fry/Vegetable Stir Fry.jpg",
+            "image": "public/vegetable stir fry/Vegetable Stir Fry.jpg",
             "allergies": "None",
             "difficulty": "Easy",
             "ingredients": [
@@ -101,7 +101,7 @@
         },
         "4": {
             "title": "Pancakes",
-            "image": "/public/pancakes/Pancakes.jpg",
+            "image": "public/pancakes/Pancakes.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Easy",
             "ingredients": [
@@ -134,7 +134,7 @@
         },
         "5": {
             "title": "Salad",
-            "image": "/public/salad/Salad.jpg",
+            "image": "public/salad/Salad.jpg",
             "allergies": "None",
             "difficulty": "Easy",
             "ingredients": [
@@ -160,7 +160,7 @@
         },
         "6": {
             "title": "Kosher Beef Burger",
-            "image": "/public/kosher beef burger/Kosher Beef Burger.jpg",
+            "image": "public/kosher beef burger/Kosher Beef Burger.jpg",
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -196,7 +196,7 @@
         },
         "7": {
             "title": "Tacos",
-            "image": "/public/tacos/Tacos.jpg",
+            "image": "public/tacos/Tacos.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -227,7 +227,7 @@
         },
         "8": {
             "title": "Salmon",
-            "image": "/public/salmon/Salmon.jpg",
+            "image": "public/salmon/Salmon.jpg",
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -257,7 +257,7 @@
         },
         "9": {
             "title": "Chocolate Cake",
-            "image": "/public/chocolate cake/Chocolate Cake.jpg",
+            "image": "public/chocolate cake/Chocolate Cake.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
