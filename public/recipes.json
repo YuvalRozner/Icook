@@ -2,7 +2,7 @@
     "recipes" : {
         "1": {
             "title": "Spaghetti",
-            "image": "public/spaghetti/Spaghetti.jpg",
+            "image": "images/spaghetti/Spaghetti.jpg",
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
