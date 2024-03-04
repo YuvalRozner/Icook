@@ -22,7 +22,7 @@ function RecipesList({ items, heading }) {
           >
             <img
               className="w-full h-64 object-cover object-center"
-              src={`${item.toLowerCase()}/${item}.jpg`}
+              src={`/Icook/images/${item.toLowerCase()}/${item}.jpg`}
               alt={`${item} recipe image`}
             />
             <div className="absolute inset-x-0 bottom-0 bg-gray-800 hover:bg-gray-900 hover:bg-opacity-70 bg-opacity-50 text-xl md:text-2xl text-white text-center py-3 font-bold">

@@ -2,7 +2,7 @@ import React, { useState, useMemo } from "react";
 import NavigationBar from "./NavigationBar";
 
 function CookWithMe({ data }) {
-  const { title, instructions, pics, duration } = data;
+  const { title, instructions, duration } = data;
   const [currentStep, setCurrentStep] = useState(0);
 
   // Calculate the total duration
@@ -68,13 +68,13 @@ function CookWithMe({ data }) {
         <p className="mb-4 px-4 text-center text-2xl">
           {instructions[currentStep]}
         </p>
-        {pics[currentStep] && (
-          <img
-            src={"/Icook/" + pics[currentStep]}
-            alt={`Step ${currentStep + 1}`}
-            className="max-w-lg h-auto rounded-md shadow-lg mb-4"
-          />
-        )}
+        <img
+          src={`/Icook/images/${title.toLowerCase()}/instruction${
+            currentStep + 1
+          }.jpg`}
+          alt={`Step ${currentStep + 1}`}
+          className="max-w-lg h-auto rounded-md shadow-lg mb-4"
+        />
       </div>
     </>
   );

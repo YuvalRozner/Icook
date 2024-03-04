@@ -5,7 +5,7 @@ import Recipe from "./Recipe";
 import CookWithMe from "./CookWithMe";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Import your JSON data
-import recipesData from "/public/recipes.json";
+import recipesData from "/recipes.json";
 import React, { useState, useEffect } from "react";
 
 function App() {

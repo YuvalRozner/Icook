@@ -2,7 +2,6 @@
     "recipes" : {
         "1": {
             "title": "Spaghetti",
-            "image": "images/spaghetti/Spaghetti.jpg",
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -22,20 +21,10 @@
                 " Remove from heat and quickly stir in the egg and cheese mixture. Toss until creamy and well combined.",
                 " Crumble crispy pancetta over the top and serve hot."
             ],
-            "duration": [10, 100, 5, 5, 5, 5, 5],
-            "pics": [
-                "/public/spaghetti/instruction1.jpg",
-                "/public/spaghetti/instruction2.jpg",
-                "/public/spaghetti/instruction3.jpg",
-                "/public/spaghetti/instruction4.jpg",
-                "/public/spaghetti/instruction5.jpg",
-                "/public/spaghetti/instruction6.jpg",
-                "/public/spaghetti/instruction7.jpg"
-            ]
+            "duration": [10, 100, 5, 5, 5, 5, 5]
         },
         "2": {
             "title": "Chicken",
-            "image": "public/chicken/Chicken.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -54,19 +43,10 @@
                 " In the same skillet, add heavy cream and grated Parmesan cheese. Cook until sauce thickens.",
                 " Slice cooked chicken into strips and add it back to the skillet."
             ],
-            "duration": [10, 5, 10, 10, 5],
-            "pics": [
-                "/public/chicken/instruction1.jpg",
-                "/public/chicken/instruction2.jpg",
-                "/public/chicken/instruction3.jpg",
-                "/public/chicken/instruction4.jpg",
-                "/public/chicken/instruction5.jpg",
-                "/public/chicken/chicken.jpg"
-            ]
+            "duration": [10, 5, 10, 10, 5]
         },
         "3": {
             "title": "Vegetable Stir Fry",
-            "image": "public/vegetable stir fry/Vegetable Stir Fry.jpg",
             "allergies": "None",
             "difficulty": "Easy",
             "ingredients": [
@@ -89,19 +69,10 @@
                 " Pour the sauce over the vegetables and toss to coat. Cook until the sauce thickens.",
                 " Serve hot over cooked rice."
             ],
-            "duration": [5, 5, 5, 5, 5, 5],
-            "pics": [
-                "/public/vegetable stir fry/instruction1.jpg",
-                "/public/vegetable stir fry/instruction2.jpg",
-                "/public/vegetable stir fry/instruction3.jpg",
-                "/public/vegetable stir fry/instruction4.jpg",
-                "/public/vegetable stir fry/instruction5.jpg",
-                "/public/vegetable stir fry/instruction6.jpg"
-            ]
+            "duration": [5, 5, 5, 5, 5, 5]
         },
         "4": {
             "title": "Pancakes",
-            "image": "public/pancakes/Pancakes.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Easy",
             "ingredients": [
@@ -122,19 +93,10 @@
                 " Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
                 " Brown on both sides and serve hot."
             ],
-            "duration": [5, 5, 5, 5, 5, 5],
-            "pics": [
-                "/public/pancakes/instruction1.jpg",
-                "/public/pancakes/instruction2.jpg",
-                "/public/pancakes/instruction3.jpg",
-                "/public/pancakes/instruction4.jpg",
-                "/public/pancakes/instruction5.jpg",
-                "/public/pancakes/instruction6.jpg"
-            ]
+            "duration": [5, 5, 5, 5, 5, 5]
         },
         "5": {
             "title": "Salad",
-            "image": "public/salad/Salad.jpg",
             "allergies": "None",
             "difficulty": "Easy",
             "ingredients": [
@@ -151,16 +113,10 @@
                 " Drizzle with balsamic vinaigrette and toss to coat.",
                 " Top with crumbled feta cheese and serve immediately."
             ],
-            "duration": [5, 5, 5],
-            "pics": [
-                "/public/salad/instruction1.jpg",
-                "/public/salad/instruction2.jpg",
-                "/public/salad/instruction3.jpg"
-            ]
+            "duration": [5, 5, 5]
         },
         "6": {
             "title": "Kosher Beef Burger",
-            "image": "public/kosher beef burger/Kosher Beef Burger.jpg",
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -183,20 +139,10 @@
             " Layer each bun with lettuce, tomato, onion, pickles, and a grilled patty.",
             " If using cheese and keeping kosher, ensure it's a non-dairy cheese alternative. Place it on the patty right before it finishes cooking to melt slightly."
             ],
-            "duration": [5, 5, 10, 5, 5, 5, 5],
-            "pics": [
-            "/public/kosher beef burger/instruction1.jpg",
-            "/public/kosher beef burger/instruction2.jpg",
-            "/public/kosher beef burger/instruction3.jpg",
-            "/public/kosher beef burger/instruction4.jpg",
-            "/public/kosher beef burger/instruction5.jpg",
-            "/public/kosher beef burger/instruction6.jpg",
-            "/public/kosher beef burger/instruction7.jpg"
-            ]
+            "duration": [5, 5, 10, 5, 5, 5, 5]
         },
         "7": {
             "title": "Tacos",
-            "image": "public/tacos/Tacos.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -217,17 +163,10 @@
                 " Fill each taco shell with cooked ground beef.",
                 " Top with lettuce, tomato, onion, sour cream, salsa, guacamole, and chopped cilantro."
             ],
-            "duration": [10, 5, 5, 5],
-            "pics": [
-                "/public/tacos/instruction1.jpg",
-                "/public/tacos/instruction2.jpg",
-                "/public/tacos/instruction3.jpg",
-                "/public/tacos/instruction4.jpg"
-            ]
+            "duration": [10, 5, 5, 5]
         },
         "8": {
             "title": "Salmon",
-            "image": "public/salmon/Salmon.jpg",
             "allergies": "None",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -246,18 +185,10 @@
                 " Place salmon fillets on a baking sheet lined with parchment paper.",
                 " Bake for 12-15 minutes, or until salmon is cooked through."
             ],
-            "duration": [5, 30, 5, 5, 15],
-            "pics": [
-                "/public/salmon/instruction1.jpg",
-                "/public/salmon/instruction2.jpg",
-                "/public/salmon/instruction3.jpg",
-                "/public/salmon/instruction4.jpg",
-                "/public/salmon/instruction5.jpg"
-            ]
+            "duration": [5, 30, 5, 5, 15]
         },
         "9": {
             "title": "Chocolate Cake",
-            "image": "public/chocolate cake/Chocolate Cake.jpg",
             "allergies": "Dairy, Gluten",
             "difficulty": "Intermediate",
             "ingredients": [
@@ -285,17 +216,7 @@
                 " Cool in the pans for 10 minutes, then remove to a wire rack to cool completely.",
                 " Frost with chocolate frosting and serve."
             ],
-            "duration": [5, 5, 5, 5, 5, 35, 10, 5],
-            "pics": [
-                "/public/chocolate cake/instruction1.jpg",
-                "/public/chocolate cake/instruction2.jpg",
-                "/public/chocolate cake/instruction3.jpg",
-                "/public/chocolate cake/instruction4.jpg",
-                "/public/chocolate cake/instruction5.jpg",
-                "/public/chocolate cake/instruction6.jpg",
-                "/public/chocolate cake/instruction7.jpg",
-                "/public/chocolate cake/instruction8.jpg"
-            ]
+            "duration": [5, 5, 5, 5, 5, 35, 10, 5]
         }
     }
 }

@@ -30,7 +30,7 @@ function Recipe({ data, recipeId }) {
         <div className="grid grid-cols-2 grid-rows-1 max-w-5xl mx-auto">
           <div className="flex justify-center">
             <img
-              src={"/Icook/" + image}
+              src={`/Icook/images/${title.toLowerCase()}/${title}.jpg`}
               alt={title + " image"}
               className="mt-5 rounded-3xl relative responsive-img min-w-20 max-w-96 max-h-96 w-80 h-60 object-cover shadow-2xl "
             />
@@ -40,7 +40,7 @@ function Recipe({ data, recipeId }) {
             onClick={() => handleClick(recipeId)}
           >
             <img
-              src="/Icook/public/cook_with_me.jpg"
+              src="/Icook/images/cook_with_me.jpg"
               alt="cook with me image"
               className="rounded-3xl min-w-20 max-w-64 max-h-80 h-72 w-auto overflow-hidden relative "
             />
@@ -62,7 +62,7 @@ function Recipe({ data, recipeId }) {
             </label>
             <select
               id="dishCount"
-              className="bg-gray-100 border border-gray-300 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-auto p-2 mx-12"
+              className="bg-gray-100 border border-gray-500 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-auto py-2 px-6 mx-12"
               onChange={handleDishChange}
               value={dishes}
             >
