@@ -29,7 +29,8 @@ const NavigationBar = ({ title }) => {
       </h2>
       <div className="flex justify-center flex-1">
         <Link
-          onClick={handleHome}
+          //onClick={handleHome}
+          to="/"
           className="bg-blue-400 hover:bg-blue-600 text-white font-bold text-xl md:text-2xl py-1 md:py-2 px-2 md:px-4 rounded"
         >
           Home
