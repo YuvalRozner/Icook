@@ -69,7 +69,7 @@ function CookWithMe({ data }) {
           {instructions[currentStep]}
         </p>
         <img
-          src={`/Icook/images/${title.toLowerCase()}/instruction${
+          src={`/Icook/${title.toLowerCase()}/instruction${
             currentStep + 1
           }.jpg`}
           alt={`Step ${currentStep + 1}`}
