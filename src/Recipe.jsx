@@ -30,7 +30,7 @@ function Recipe({ data, recipeId }) {
         <div className="grid grid-cols-2 grid-rows-1 max-w-5xl mx-auto">
           <div className="flex justify-center">
             <img
-              src={`/Icook/${title.toLowerCase()}/${title}.jpg`}
+              src={`/Icook/${title}.jpg`}
               alt={title + " image"}
               className="mt-5 rounded-3xl relative responsive-img min-w-20 max-w-96 max-h-96 w-80 h-60 object-cover shadow-2xl "
             />

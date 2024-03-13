@@ -69,9 +69,7 @@ function CookWithMe({ data }) {
           {instructions[currentStep]}
         </p>
         <img
-          src={`/Icook/${title.toLowerCase()}/instruction${
-            currentStep + 1
-          }.jpg`}
+          src={`/Icook/${title}_${currentStep + 1}.jpg`}
           alt={`Step ${currentStep + 1}`}
           className="max-w-lg h-auto rounded-md shadow-lg mb-4"
         />
