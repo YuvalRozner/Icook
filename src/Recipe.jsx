@@ -15,7 +15,7 @@ function Recipe({ data, recipeId }) {
   const [dishes, setDishes] = useState(1); // State to hold the selected number of dishes
 
   const handleClick = (recipeId) => {
-    window.location.href = "/Icook/CookWithMe/" + recipeId;
+    window.location.href = "#/CookWithMe/" + recipeId;
   };
 
   // Function to handle change in the number of dishes

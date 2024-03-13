@@ -4,7 +4,7 @@ function RecipesList({ items, heading }) {
   const handleClick = (item, recipeId) => {
     console.log(item + " was clicked");
     // Set the link to "/recipe"
-    window.location.href = "/Icook/recipe/" + recipeId;
+    window.location.href = "#/recipe/" + recipeId;
   };
 
   return (

@@ -31,7 +31,7 @@ function App() {
           </h1>
           <RecipesList heading="Select a recipe to cook:" items={titles} />
         </Route>
-        <Route exact path="/recipe/:id">
+        <Route path="/recipe/:id">
           {({ match }) => {
             // Convert the id param to an integer and ensure it's a valid index
             const recipeId = match.params.id;
@@ -44,7 +44,7 @@ function App() {
             );
           }}
         </Route>
-        <Route path="/Icook/CookWithMe/:id">
+        <Route path="/CookWithMe/:id">
           {({ match }) => {
             // Convert the id param to an integer and ensure it's a valid index
             const recipeId = match.params.id;
