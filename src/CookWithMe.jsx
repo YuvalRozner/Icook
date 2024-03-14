@@ -35,7 +35,7 @@ function CookWithMe({ data }) {
   return (
     <>
       <NavigationBar title={title} />
-      <div className="flex flex-col items-center mt-4">
+      <div className="flex flex-col items-center md:mt-5">
         <div className="flex justify-between items-center w-auto mb-2 text-2xl">
           <button
             onClick={handlePrev}

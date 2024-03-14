@@ -15,8 +15,8 @@ const NavigationBar = ({ title }) => {
   };
 
   return (
-    <div className="flex items-center justify-between p-3 md:p-4">
-      <div className="flex justify-center flex-1">
+    <div className="flex items-center justify-between ">
+      <div className="flex mx-2 md:justify-center flex-1">
         <button
           onClick={handleBack}
           className="bg-blue-400 hover:bg-blue-600 text-white font-bold text-xl md:text-2xl py-1 md:py-2 px-2 md:px-4 rounded"
@@ -24,10 +24,10 @@ const NavigationBar = ({ title }) => {
           Back
         </button>
       </div>
-      <h2 className="text-3xl md:text-6xl font-extrabold text-center underline flex-1">
+      <h2 className="text-4xl md:text-6xl font-extrabold text-center underline flex-1">
         {title}
       </h2>
-      <div className="flex justify-center flex-1">
+      <div className="flex justify-end mx-2 md:justify-center flex-1">
         <Link
           //onClick={handleHome}
           to="/"
