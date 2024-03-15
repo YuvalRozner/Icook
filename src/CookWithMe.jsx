@@ -35,7 +35,7 @@ function CookWithMe({ data }) {
   return (
     <>
       <NavigationBar title={title} />
-      <div className="flex flex-col items-center md:mt-5">
+      <div className="bg-neutral-200 flex flex-col items-center pt-1 pb-3 md:pt-3 md:pb-5">
         <div className="flex justify-between items-center w-auto mt-2 md:mb-2 text-xl md:text-2xl">
           <button
             onClick={handlePrev}
@@ -65,7 +65,7 @@ function CookWithMe({ data }) {
             style={{ width: `${progressPercentage}%` }}
           ></div>
         </div>
-        <p className="mb-4 px-4 text-center text-xl md:text-3xl">
+        <p className="bg-gray-400 rounded-xl mb-4 px-4 text-center text-xl md:text-3xl">
           {instructions[currentStep]}
         </p>
         <div className="flex justify-center w-full px-3">

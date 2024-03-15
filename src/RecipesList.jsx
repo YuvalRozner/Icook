@@ -8,9 +8,9 @@ function RecipesList({ items, heading }) {
   };
 
   return (
-    <div>
+    <div className="bg-neutral-200">
       {items.length === 0 && <p>No Recipes found</p>}
-      <div className="mx-4 md:mx-24 my-1 md:my-9 grid grid-flow-row-dense grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:gap-4 relative">
+      <div className="mx-4 md:mx-24 py-1 md:py-7 grid grid-flow-row-dense grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-2 md:gap-4 relative">
         <h1 className="col-span-full text-xl md:text-3xl font-bold text-center relative">
           {heading}
         </h1>

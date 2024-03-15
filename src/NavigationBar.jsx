@@ -15,7 +15,7 @@ const NavigationBar = ({ title }) => {
   };
 
   return (
-    <div className="flex items-center justify-between ">
+    <div className="bg-neutral-300 pb-2 md:pb-5 flex items-center justify-between ">
       <div className="flex mx-2 md:justify-center flex-1">
         <button
           onClick={handleBack}

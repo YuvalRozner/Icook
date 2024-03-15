@@ -26,7 +26,7 @@ function App() {
       <Head />
       <Switch>
         <Route exact path="/">
-          <h1 className="text-2xl md:text-4xl text-blue-800 text-center px-2">
+          <h1 className="bg-neutral-300 py-1 md:py-2 text-2xl md:text-4xl text-blue-800 text-center px-2">
             Welcome to Icook Interactive Cooking Website!
           </h1>
           <RecipesList heading="Select a recipe to cook:" items={titles} />

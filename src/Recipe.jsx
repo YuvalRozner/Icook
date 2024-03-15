@@ -26,7 +26,7 @@ function Recipe({ data, recipeId }) {
   return (
     <>
       <NavigationBar title={title} />
-      <div className="recipe mx-3 text-lg md:text-2xl">
+      <div className="bg-neutral-200 recipe px-3 text-lg md:text-2xl">
         <div className="grid grid-cols-2 grid-rows-1 max-w-5xl mx-auto">
           <div className="flex justify-center">
             <img
@@ -40,7 +40,7 @@ function Recipe({ data, recipeId }) {
             onClick={() => handleClick(recipeId)}
           >
             <img
-              src="/Icook/cook_with_me.jpg"
+              src="/Icook/cook_with_me.png"
               alt="cook with me image"
               className="w-auto h-44 md:h-72"
             />
@@ -62,7 +62,7 @@ function Recipe({ data, recipeId }) {
             </label>
             <select
               id="dishCount"
-              className="bg-gray-100 border border-gray-500 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-auto py-1 md:py-2 px-2 md:px-6 ml-6 md:ml-12"
+              className="bg-sky-100 border border-gray-500 text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-auto py-1 md:py-2 px-2 md:px-6 ml-6 md:ml-12"
               onChange={handleDishChange}
               value={dishes}
             >
@@ -89,7 +89,7 @@ function Recipe({ data, recipeId }) {
               ))}
             </ul>
           </div>
-          <div className="my-3 flex">
+          <div className="py-3 md:pb-6 flex">
             <strong>Instructions:</strong>
             <ol className="ml-3 md:ml-9">
               {instructions.map((instruction, index) => (
