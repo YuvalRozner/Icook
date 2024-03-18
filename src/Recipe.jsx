@@ -2,15 +2,8 @@ import React, { useState } from "react";
 import NavigationBar from "./NavigationBar";
 
 function Recipe({ data, recipeId }) {
-  const {
-    title,
-    image,
-    allergies,
-    difficulty,
-    ingredients,
-    amounts,
-    instructions,
-  } = data;
+  const { title, allergies, difficulty, ingredients, amounts, instructions } =
+    data;
 
   const [dishes, setDishes] = useState(1); // State to hold the selected number of dishes
 

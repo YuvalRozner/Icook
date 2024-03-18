@@ -9,11 +9,6 @@ const NavigationBar = ({ title }) => {
     history.goBack();
   };
 
-  // Function to handle the home button
-  const handleHome = () => {
-    window.location.href = "/Icook/#/";
-  };
-
   return (
     <div className="bg-neutral-300 pb-2 md:pb-5 flex items-center justify-between ">
       <div className="flex mx-2 md:justify-center flex-1">
@@ -29,7 +24,6 @@ const NavigationBar = ({ title }) => {
       </h2>
       <div className="flex justify-end mx-2 md:justify-center flex-1">
         <Link
-          //onClick={handleHome}
           to="/"
           className="bg-blue-400 hover:bg-blue-600 text-white font-bold text-xl md:text-2xl py-1 md:py-2 px-2 md:px-4 rounded"
         >
