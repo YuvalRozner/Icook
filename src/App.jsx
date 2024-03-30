@@ -3,7 +3,6 @@ import Tail from "./Tail";
 import RecipesList from "./RecipesList";
 import Recipe from "./Recipe";
 import CookWithMe from "./CookWithMe";
-//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 // Import JSON data
 import recipesData from "/recipes.json";
