@@ -1,7 +1,7 @@
 const Head = () => {
   return (
     <div className="bg-neutral-300 flex justify-center items-center mx-auto py-2 md:pt-4 max-w-full px-2 sm:px-4">
-      <a href="/">
+      <a href="/Icook/">
         <img
           src="/Icook/logo.png"
           alt="Website Logo"
