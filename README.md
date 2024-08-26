@@ -63,7 +63,6 @@ Project Link: [https://github.com/YuvalRozner/Icook](https://github.com/YuvalRoz
 ## Acknowledgments
 
 ### All contributors who participated in this project:
-
 - Dor Shabat
 - Nitzan Ezra
 - Yuval Rozner
